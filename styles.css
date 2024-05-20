@@ -1,0 +1,47 @@
+html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Pixelify Sans", sans-serif;
+  background-image: linear-gradient(to right, #0d3931, #2b0051);
+  color: #ffffff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #fff;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+h1,
+p,
+button {
+  margin: 10px 0;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1.2em;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+#domain {
+  font-size: 1.5em;
+  color: #00ff00;
+}
